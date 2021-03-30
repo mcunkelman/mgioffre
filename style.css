@@ -14,61 +14,77 @@ html {
 }
 body {
     width: 100%;
-    background-color: gray;
+    height: 100%;
+    background-color: #90aabc;
 }
 nav {
-    height: 4em;
+    min-height: 2em;
     width: 100%;
-    background-color: darkorange;
+    background-color: #081234;
     color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: inline-block;
 }
 #logo {
-    clear: right;
-    border: 1px solid black;
+    border: 2px solid #90aabc;
+    display: inline;
+    padding: 0.1em;
+    margin-left: 1em;
+    font-size: 1.3em;
 }
 #menu{
-    margin-right: 1em;
+    margin-right: 2em;
     float: right;
-    border: 1px solid black;
+    color: white;
+}
+#menu:hover{
+    color: #90aabc;
 }
 nav ul{
     list-style-type: none;
-    padding-top: 0;
-    border: 1px solid black;
 }
 nav li{
     display: inline;
-    border-left: 2px solid navy;
-    padding-top: 0.1em;
-    padding-bottom: 0.1em;
 }
 nav a {
     text-decoration: none;
+    border-left: 2px solid #90aabc;
     padding-top: 0.1em;
-    padding-bottom: 0.1;
-    padding-left: 0.25em;
-    padding-right: 0.25em;
+    padding-bottom: 0.1em;
     font-size: 1.3em;
-    color: navy;
+    color: inherit;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 nav a:hover{
-    color: blue;
+    color: white;
+}
+#pittpic{
+    background-image: url(./images/pittPano1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    min-height: 500px;
+    background-position: center center;
 }
 #wrapper{
-    width: 80%;
+    width: 100%;
+    max-width: 3000px;
     padding: 1em;
     margin-left: auto;
     margin-right: auto;
-    background-color: lightgray;
+    background-color: #90aabc;
     color: navy;
     min-height: 400px;
 }
 footer{
-    width: 80%;
+    width: 100%;
+    max-width: 3000px;
     min-height: 4em;
     padding: 1em;
     margin-left: auto;
     margin-right: auto;
-    background-color: navy;
+    background-color: #954a02;
     color: white;
 }
