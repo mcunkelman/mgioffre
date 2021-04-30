@@ -99,6 +99,11 @@ nav a:hover{
     min-height: 5em;
     background-color: white;
 }
+#wrapper img{
+    height: 20em;
+    float: right;
+    margin: 1em;
+}
 footer{
     width: 100%;
     max-width: 3000px;
