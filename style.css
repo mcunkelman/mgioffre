@@ -83,6 +83,21 @@ nav a:hover{
     color: #00394d;
     min-height: 400px;
 }
+#wrapper ol{
+    padding: 2em;
+}
+#wrapper li{
+    padding-top: .5em;
+}
+#wrapper form{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    min-height: 5em;
+    background-color: white;
+}
 footer{
     width: 100%;
     max-width: 3000px;
