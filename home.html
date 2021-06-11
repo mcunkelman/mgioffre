@@ -31,6 +31,9 @@
                 <li><a href="./contact.html"> &nbsp;Contact Us</a></li>
             </ul>
         </div>
+        <div id="burger">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">Burger</a>
+        </div>
     </nav>
     <div id="pittpic">
         <h1>
@@ -49,6 +52,18 @@
         This is the footer
     </footer>
 
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("menu");
+            if (x.style.display === "inline-block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "inline-block";
+            }
+        }
+    </script>
 </body>
 
 </html>
